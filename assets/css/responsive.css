@@ -1,0 +1,130 @@
+@media (min-width: 1368px) {
+    .broadc-m {
+        margin-top: -250px;
+    }
+}
+
+@media (min-width: 1199px) and (max-width: 1367px) {
+    .s-heading {
+        font-size: 35px;
+    }
+    .title {
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    .c-title {
+        font-size: 17px;
+        padding-bottom: 10px;
+    }
+    .radious-icon {
+        height: 50px;
+        width: 50px;
+    }
+    n-height: 350px;
+}
+
+
+}
+
+/* Medium Layout: 1280px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* margin */
+    
+    .mt-60 {
+        margin-top: 30px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 320px) and (max-width: 991px) {
+    /* common */
+    
+    .com-bor-btn {
+        height: auto;
+    }
+    
+    P,
+    .t14 {
+        font-size: 12px;
+    }
+    /* heading */
+    
+    .t18 {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .t20 {
+        font-size: 17px;
+    }
+    
+    .s-heading {
+        font-size: 22px;
+        font-weight: 600;
+        padding-bottom: 3px;
+    }
+    
+    .s-sub-heading {
+        font-size: 20px;
+    }
+    
+    .title {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    /* btn */
+    
+    .cmn-btn-white,
+    .com-bor-btn,
+    .cmn-btn-blue {
+        font-size: 12px;
+    }
+    /* padding */
+    
+    .sec-padding-top {
+        padding-top: 50px;
+    }
+    
+    .con-padding-top {
+        padding-top: 25px;
+    }
+    
+    .p-35 {
+        padding: 20px;
+    }
+    
+    .row-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .radious-icon {
+        height: 40px;
+        width: 40px;
+    }
+    /* .pb-d-0 {
+        padding-bottom: 0px !important;
+    } */
+    
+    .con-content-w>.flex_basis {
+        flex-basis: auto;
+    }
+    /* Homepage */
+}
+
+/* Mobile Layout: 320px. */
+@media (max-width: 767px) {
+    /* common */
+    /* btn */
+    
+    .cmn-btn-white,
+    .com-bor-btn,
+    .cmn-btn-blue {
+        font-size: 12px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 320px) and (max-width: 575px) {}
